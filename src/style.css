@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  background-color: #C5E4E7;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Color */
+.grey-600 {
+  background-color: #3D6666;
+}
+.grey-550 {
+  background-color: #547878;
+}
+.grey-500 {
+  background-color: #5E7A7D;
+}
+.grey-450 {
+  background-color: #7F9D9F;
+}
+.grey-300 {
+  background-color: #9EBBBD;
+}
+.grey-200 {
+  background-color: #C5E4E7;
+}
+.grey-50 {
+  background-color: #F3F9FA;
+}
+
+.green-900 {
+  background-color: #00474B;
+}
+.green-800 {
+  background-color: #085C61;
+}
+.green-750 {
+  background-color: #0D686D;
+}
+.green-400 {
+  background-color: #26C2AE;
+}
+.green-200 {
+  background-color: #9FE8DF;
+}
+.orange-400 {
+  background-color: #E17052;
+}
+
+/* Typography */
+.text-preset-1 {
+  font-size: 3rem;
+  line-height: 4.438rem;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+.text-preset-2 {
+  font-size: 2rem;
+  line-height: 2.938rem;
+  letter-spacing: -0.67px;
+  font-weight: bold;
+}
+.text-preset-3 {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  letter-spacing: 0;
+}
+.text-preset-4 {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  letter-spacing: 0;
+}
+.text-preset-5 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0;
+}
+.text-preset-6 {
+  font-size: 0.875rem;
+  line-height: 1.313rem;
+  letter-spacing: 0;
+}   
