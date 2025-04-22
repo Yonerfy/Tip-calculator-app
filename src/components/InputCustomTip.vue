@@ -1,15 +1,19 @@
 <script setup>
+import { watch, ref } from 'vue';
 
 defineProps({
     tip: {
         type: Number,
-        required: true
+        required: true,
+        default: 0
     }
 })
+defineEmits(['update:modelValue'])
 
 </script>
 <template>
-    <input type="number" class="custom-button bg-[#F3F9FA] rounded-md text-[#00474B] text-preset-3 text-right w-[31%]"  placeholder="Custom"/>
+    <input type="number" class="custom-button bg-[#F3F9FA] rounded-md text-[#00474B] text-preset-3 text-right w-[31%]"  
+    placeholder="Custom"  @input="$emit('update:modelValue', Number($event.target.value))" />
 </template>
 <style scoped>
 .custom-button {
