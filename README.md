@@ -1,5 +1,15 @@
-# Vue 3 + Vite
+# Vue 3 + Vite 🚀
+## Tip calculator app 💰
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This small app is perfect for anyone starting to get to grips with JavaScript. The calculator functionality will be a nice test!
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+![Design].(desktop.png) 🖥️
+![Design].(active states.png) 💻
+![Design].(mobile design.png) 📱
+
+📝 Brief
+Your challenge is to build out this tip calculator app and get it looking as close to the design as possible.
+
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+
+[live version]()👨🏾‍💻
