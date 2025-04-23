@@ -31,6 +31,9 @@ const resetValues = () => {
     people.value = 1
     selectedTip.value = 0
 }
+function onFocus(event) {
+    event.target.select() // Select the input's value when focused
+}
 </script>
 
 <template>
@@ -41,13 +44,13 @@ const resetValues = () => {
  <div class="white-bg bg-white p-7 rounded-xl shadow-lg">
   <div class="card py-[3em] md:p-[1em]">
     <div class="card-left">
-      <InputFormBill  v-model="bill"/>
+      <InputFormBill  v-model="bill" :onFocus="onFocus"/>
       <h2 class="text-preset-5 text-left text-[#5E7A7D] mt-[2.5em] mb-2">Select Tip %</h2>
       <div class="tips-container flex flex-wrap gap-1">
         <TipButton v-for="tip in [5, 10, 15, 25, 50]" :key="tip" :totalAmount="totalAmount" :tip="tip" v-model="selectedTip" :isActive="isButtonActive(tip)" />
-        <InputCustomTip v-model="selectedTip" :tip="selectedTip"/>
+        <InputCustomTip v-model="selectedTip" :tip="selectedTip" :onFocus="onFocus"/>
       </div>
-      <InputFormPeople v-model="people"/>
+      <InputFormPeople v-model="people" :onFocus="onFocus"/>
     </div>
     <div class="card-right">
       <TipCard :tipAmount="tipAmount" :totalAmount="totalAmount" @reset="resetValues"/>
