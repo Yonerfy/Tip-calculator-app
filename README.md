@@ -3,9 +3,9 @@
 
 This small app is perfect for anyone starting to get to grips with JavaScript. The calculator functionality will be a nice test!
 
-![Design].(desktop.png) 🖥️
-![Design].(active states.png) 💻
-![Design].(mobile design.png) 📱
+![Design](desktop.png) 🖥️
+![Design](active states.png) 💻
+![Design](mobile design.png) 📱
 
 📝 Brief
 Your challenge is to build out this tip calculator app and get it looking as close to the design as possible.
