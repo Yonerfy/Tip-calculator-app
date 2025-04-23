@@ -12,4 +12,4 @@ Your challenge is to build out this tip calculator app and get it looking as clo
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-[live version]()👨🏾‍💻
+[live version](https://yonerfy.github.io/Tip-calculator-app-live/)👨🏾‍💻
